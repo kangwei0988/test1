@@ -10,4 +10,4 @@ script: true
  - nosetests --with-coverage --coverage report
 
 script:
- - python backend.py
+ - python test.py
