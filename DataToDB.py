@@ -6,8 +6,9 @@ from pymongo import MongoClient
 from flask_mongoengine import MongoEngine
 from werkzeug.utils import secure_filename
 import jieba
-#developer
-UPLOAD_FOLDER = 'static/img'
+
+#master
+UPLOAD_FOLDER = 'static/image'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 app = flask.Flask(__name__)
